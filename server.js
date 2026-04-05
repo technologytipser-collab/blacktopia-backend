@@ -11,9 +11,9 @@ app.use(express.json());
 // ================================================
 // PASTE YOUR SUPABASE DETAILS HERE
 // ================================================
-const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-const SUPABASE_KEY = 'YOUR_SUPABASE_ANON_KEY';
-const JWT_SECRET   = 'blocktopia-super-secret-key-change-this';
+const SUPABASE_URL = 'https://boclycuyaymvjpydbhjp.supabase.co';
+const SUPABASE_KEY = 'boclycuyaymvjpydbhjp';
+const JWT_SECRET   = 'b6e0ea55-3969-4444-9b9d-eaa114b88160';
 // ================================================
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
